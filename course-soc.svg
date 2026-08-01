@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061d3b"/><stop offset="1" stop-color="#006dd1"/></linearGradient><radialGradient id="r"><stop stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+<rect width="800" height="450" fill="#080910"/><rect width="800" height="450" fill="url(#g)" opacity=".78"/>
+<circle cx="670" cy="80" r="260" fill="url(#r)"/><g opacity=".15" stroke="#fff"><path d="M0 70h800M0 140h800M0 210h800M0 280h800M0 350h800"/><path d="M80 0v450M160 0v450M240 0v450M320 0v450M400 0v450M480 0v450M560 0v450M640 0v450M720 0v450"/></g>
+<circle cx="620" cy="235" r="116" fill="#090a11" fill-opacity=".78" stroke="#fff" stroke-opacity=".32" stroke-width="3"/>
+<text x="620" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="112" fill="#fff">◎</text>
+<text x="62" y="96" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#fff" opacity=".8">NEXONE LEARNING</text>
+<text x="62" y="255" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#fff">SOC ANALYST</text>
+<text x="62" y="302" font-family="Arial,sans-serif" font-size="24" fill="#fff" opacity=".75">CAREER PATH</text>
+</svg>

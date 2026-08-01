@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="NEXONE cybersecurity learning platform">
+  <title>NEXONE | Learn Cybersecurity</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="NEXONE home">
+      <img src="assets/logo-mark.png" alt="">
+      <span>NEXONE</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="catalog.html">Courses</a>
+      <a href="dashboard.html">My Learning</a>
+      <a href="index.html#certificates">Certificates</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="button small ghost" href="catalog.html">Explore</a>
+      <button class="icon-button" id="loginButton" aria-label="Open learner profile">◎</button>
+      <button class="menu-button" aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+  <div class="container search-shell">
+    <label class="searchbar">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input id="globalSearch" placeholder="Search courses, skills, or career paths..." aria-label="Search NEXONE">
+    </label>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-panel">
+      <div class="hero-copy">
+        <span class="eyebrow">Career-ready cybersecurity training</span>
+        <h1>Learn security.<br><span class="gradient-text">Prove your skills.</span></h1>
+        <p>Build practical cybersecurity knowledge through guided lessons, safe labs, assessments, and certificates you can add to your portfolio.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="catalog.html">Browse courses →</a>
+          <a class="button secondary" href="#how-it-works">How it works</a>
+        </div>
+      </div>
+      <div class="hero-proof" aria-label="Platform statistics">
+        <div class="proof-card"><strong>40K+</strong><span>active learners</span></div>
+        <div class="proof-card"><strong>4.9/5</strong><span>average rating</span></div>
+        <div class="proof-card"><strong>100%</strong><span>online learning</span></div>
+      </div>
+    </div>
+    <div class="trust-strip">
+      <div class="trust-item"><i>⚡</i><span><strong>Learn anytime</strong><br><small>Self-paced access</small></span></div>
+      <div class="trust-item"><i>✓</i><span><strong>Safe labs</strong><br><small>Authorized practice</small></span></div>
+      <div class="trust-item"><i>◇</i><span><strong>Certificates</strong><br><small>Completion proof</small></span></div>
+      <div class="trust-item"><i>◉</i><span><strong>Secure checkout</strong><br><small>Demo payment flow</small></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section compact">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">Top courses</span><h2>Start your cybersecurity path</h2><p>Structured learning for beginners, career changers, and working professionals.</p></div>
+      <a class="button secondary" href="catalog.html">View all courses</a>
+    </div>
+    <div class="category-row">
+      <button class="chip active" data-category="All">Top rated</button>
+      <button class="chip" data-category="Fundamentals">Fundamentals</button>
+      <button class="chip" data-category="Offensive Security">Ethical hacking</button>
+      <button class="chip" data-category="Blue Team">Blue team</button>
+      <button class="chip" data-category="Cloud Security">Cloud</button>
+    </div>
+    <div class="course-grid" id="featuredCourses"></div>
+  </div>
+</section>
+
+<section class="section" id="how-it-works">
+  <div class="container">
+    <div class="section-head"><div><span class="eyebrow">How it works</span><h2>From first lesson to certificate</h2></div></div>
+    <div class="feature-grid">
+      <article class="feature-card"><div class="feature-icon">01</div><h3>Choose a path</h3><p>Select a focused course or career path based on your current level and goal.</p></article>
+      <article class="feature-card"><div class="feature-icon">02</div><h3>Learn and practice</h3><p>Follow guided modules, complete knowledge checks, and practice only in authorized environments.</p></article>
+      <article class="feature-card" id="certificates"><div class="feature-icon">03</div><h3>Earn your certificate</h3><p>Finish every lesson to unlock a personalized certificate with a unique verification ID.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta">
+      <span class="eyebrow">Build your next skill</span>
+      <h2>Ready to enter cybersecurity?</h2>
+      <p>Start with the fundamentals or choose a role-based path designed to help you build a practical portfolio.</p>
+      <a class="button primary" href="catalog.html">Explore NEXONE courses</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/logo-mark.png" alt=""><span>NEXONE</span></a>
+        <p>Practical cybersecurity learning with guided labs, progress tracking, and verifiable course certificates.</p>
+      </div>
+      <div><h4>Learn</h4><a href="catalog.html">Course catalog</a><a href="dashboard.html">My learning</a><a href="index.html#certificates">Certificates</a></div>
+      <div><h4>Company</h4><a href="about.html">About NEXONE</a><a href="about.html#support">Support</a><a href="about.html#instructors">Instructors</a></div>
+      <div><h4>Policies</h4><a href="legal.html#terms">Terms</a><a href="legal.html#privacy">Privacy</a><a href="legal.html#refunds">Refund policy</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> NEXONE Learning. All rights reserved.</span>
+      <span>Prototype storefront · Demo payments only</span>
+    </div>
+  </div>
+</footer>
+<div class="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

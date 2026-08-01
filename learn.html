@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Course Player | NEXONE</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#lessonContent">Skip to lesson</a>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="dashboard.html"><img src="assets/logo-mark.png" alt=""><span>NEXONE</span></a>
+    <div style="text-align:center"><strong id="learnCourseTitle"></strong><div style="width:220px;max-width:35vw" class="progress"><span id="courseProgressBar"></span></div><small id="courseProgressLabel" style="color:var(--muted)"></small></div>
+    <a class="button small secondary" href="dashboard.html">Exit course</a>
+  </div>
+</header>
+<main class="learn-layout">
+  <aside class="lesson-sidebar"><h2>Course curriculum</h2><p>Complete each lesson to unlock your certificate.</p><nav id="lessonNav"></nav></aside>
+  <section class="lesson-main"><article class="lesson-card"><div id="lessonContent"></div><div class="lesson-actions"><button class="button secondary" id="prevLesson">← Previous</button><button class="button primary" id="nextLesson">Complete & continue</button></div></article></section>
+</main>
+<div class="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body>
+</html>
